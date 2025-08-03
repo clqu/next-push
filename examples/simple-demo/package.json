@@ -20,8 +20,8 @@
 	},
 	"devDependencies": {
 		"@tailwindcss/postcss": "^4",
+		"@types/minimatch": "^6.0.0",
 		"@types/next-pwa": "^5.6.9",
-		"@types/node": "^20",
 		"@types/react": "^19",
 		"@types/react-dom": "^19",
 		"@types/web-push": "^3.6.4",
