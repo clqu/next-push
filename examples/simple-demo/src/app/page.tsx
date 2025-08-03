@@ -278,7 +278,7 @@ const NotificationDemo = () => {
 													</div>
 												</div>
 												<div className="mt-1 text-gray-500 text-xs truncate">
-													{subscription?.endpoint}
+													{subscriber?.endpoint}
 												</div>
 											</div>
 											<div className="flex items-center gap-2">
