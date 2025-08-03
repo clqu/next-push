@@ -165,7 +165,7 @@ const NotificationDemo = () => {
 			</div>
 
 			{/* Main Content */}
-			<div className="gap-16 grid grid-cols-2 mx-auto px-6 py-16">
+			<div className="gap-16 grid grid-cols-1 lg:grid-cols-2 mx-auto px-6 py-16">
 				<section className="top-20 sticky bg-gradient-to-br from-white via-gray-50 to-blue-50 p-8 border border-blue-100/50 rounded-2xl h-min">
 					<div className="flex items-center gap-3 mb-6">
 						<div className="bg-gradient-to-r from-green-400 to-emerald-500 rounded-full w-3 h-3 animate-pulse"></div>
