@@ -2,9 +2,9 @@ import { MetadataRoute } from "next"
 
 export default function manifest(): MetadataRoute.Manifest {
 	return {
-		name: "Push Notification Admin",
-		short_name: "Push Admin",
-		description: "Push notification yönetim paneli",
+		name: "next-push",
+		short_name: "next-push",
+		description: "A modern, lightweight push notification library for Next.js applications.",
 		start_url: "/",
 		display: "standalone",
 		background_color: "#ffffff",
