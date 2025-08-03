@@ -1,6 +1,6 @@
 {
 	"name": "next-push",
-	"version": "1.0.4",
+	"version": "1.0.9",
 	"description": "A modern and powerful push notification library for Next.js",
 	"main": "dist/client/index.js",
 	"types": "dist/types.d.ts",
@@ -15,7 +15,8 @@
 		}
 	},
 	"files": [
-		"dist"
+		"dist",
+		"next-push-sw.js"
 	],
 	"publishConfig": {
 		"access": "public"

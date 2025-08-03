@@ -1,0 +1,49 @@
+# Source
+src/
+__tests__/
+test/
+tests/
+
+# Config files
+tsconfig.json
+tslint.json
+.eslintrc
+.eslintrc.js
+.eslintrc.json
+.prettierrc
+.prettierrc.js
+jest.config.js
+*.config.js
+
+# Git files
+.git/
+.github/
+.gitignore
+
+# CI
+.travis.yml
+.gitlab-ci.yml
+.circleci/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Development folders
+node_modules/
+coverage/
+.nyc_output/
+
+# Editor directories and files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Misc
+.DS_Store
+Thumbs.db
+*.tsbuildinfo 

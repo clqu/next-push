@@ -1,11 +1,17 @@
-import type { PushConfig, NotificationData } from '../types';
-export declare const useNextPush: (config: PushConfig) => {
+import type { PushConfig, PushError, PushProgress } from '../types';
+export declare const useNextPush: (config?: PushConfig) => {
     isSupported: boolean;
-    isSubscribed: boolean;
-    isLoading: boolean;
+    subscribed: boolean;
+    loading: boolean;
     permission: NotificationPermission;
+    error: PushError | null;
+    progress: PushProgress;
     subscribe: () => Promise<PushSubscription>;
-    unsubscribe: () => Promise<void>;
-    sendTestNotification: (data: NotificationData) => string;
-    checkSubscription: () => Promise<void>;
+    unsubscribe: () => Promise<PushSubscription | null | undefined>;
+    toggle: () => Promise<PushSubscription | null | undefined>;
+    reset: () => Promise<void>;
+    check: () => Promise<void>;
+    getSubscription: () => Promise<PushSubscription | null | undefined>;
+    subscription: PushSubscription | null;
 };
+export { NextPushProvider, useNextPushContext } from './provider';
