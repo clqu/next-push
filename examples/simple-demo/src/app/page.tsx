@@ -166,7 +166,7 @@ const NotificationDemo = () => {
 
 			{/* Main Content */}
 			<div className="gap-16 grid grid-cols-1 lg:grid-cols-2 mx-auto px-6 py-16">
-				<section className="top-20 sticky bg-gradient-to-br from-white via-gray-50 to-blue-50 p-8 border border-blue-100/50 rounded-2xl h-min">
+				<section className="lg:top-20 lg:sticky bg-gradient-to-br from-white via-gray-50 to-blue-50 p-8 border border-blue-100/50 rounded-2xl h-min">
 					<div className="flex items-center gap-3 mb-6">
 						<div className="bg-gradient-to-r from-green-400 to-emerald-500 rounded-full w-3 h-3 animate-pulse"></div>
 						<h2 className="font-bold text-gray-900 text-3xl">Live Demo</h2>
@@ -249,7 +249,7 @@ const NotificationDemo = () => {
 					)}
 
 					{/* Subscribers List */}
-					<div className="bg-white/80 backdrop-blur-sm p-6 border border-gray-200/50 rounded-xl transition-all duration-300">
+					<div className="bg-white/80 backdrop-blur-sm p-6 border border-gray-200/50 rounded-xl max-h-[25rem] overflow-y-auto transition-all duration-300">
 						<div className="flex justify-between items-center mb-4">
 							<h3 className="font-semibold text-gray-900 text-xl">Active Subscriptions</h3>
 							<div className="bg-gradient-to-r from-blue-100 to-purple-100 px-3 py-1 rounded-full font-medium text-blue-800 text-sm">
