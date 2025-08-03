@@ -136,7 +136,7 @@ const NotificationDemo = () => {
 	};
 
 	const renderCodeBlock = (code: string, language: string = 'typescript') => (
-		<pre className="bg-gradient-to-br from-white to-gray-50 p-6 border border-gray-200/50 rounded-xl text-black transition-all duration-300">
+		<pre className="bg-gradient-to-br from-white to-gray-50 p-6 border border-gray-200/50 rounded-xl overflow-y-auto text-black transition-all duration-300">
 			<code>{code}</code>
 		</pre>
 	);
@@ -250,7 +250,7 @@ const NotificationDemo = () => {
 
 					{/* Subscribers List */}
 					<div className="bg-white/80 backdrop-blur-sm p-6 border border-gray-200/50 rounded-xl max-h-[25rem] overflow-y-auto transition-all duration-300">
-						<div className="flex justify-between items-center mb-4">
+						<div className="flex flex-wrap justify-between items-center mb-4">
 							<h3 className="font-semibold text-gray-900 text-xl">Active Subscriptions</h3>
 							<div className="bg-gradient-to-r from-blue-100 to-purple-100 px-3 py-1 rounded-full font-medium text-blue-800 text-sm">
 								{subscribers.length} {subscribers.length === 1 ? 'subscription' : 'subscriptions'}
